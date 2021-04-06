@@ -1,0 +1,6 @@
+framework module Pods_MMSimpleAddTool_Example {
+  umbrella header "Pods-MMSimpleAddTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

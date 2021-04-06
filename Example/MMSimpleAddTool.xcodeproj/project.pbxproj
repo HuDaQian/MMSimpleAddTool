@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1690E9FD41A75883934717B3 /* Pods-MMSimpleAddTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSimpleAddTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-MMSimpleAddTool_Example/Pods-MMSimpleAddTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2430331A06A1DC7227CB94B7 /* MMSimpleAddTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MMSimpleAddTool.podspec; path = ../MMSimpleAddTool.podspec; sourceTree = "<group>"; };
+		2430331A06A1DC7227CB94B7 /* MMSimpleAddTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MMSimpleAddTool.podspec; path = ../MMSimpleAddTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* MMSimpleAddTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMSimpleAddTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		BA779C5E5B189F2BF2E71C22 /* Pods-MMSimpleAddTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSimpleAddTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MMSimpleAddTool_Tests/Pods-MMSimpleAddTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0864BB6F8147D3EE93408CF /* Pods-MMSimpleAddTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSimpleAddTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-MMSimpleAddTool_Tests/Pods-MMSimpleAddTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C45BAB0C4544623CA0586BB0 /* Pods_MMSimpleAddTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMSimpleAddTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C487BC22BAB1E3FF2389BD48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C487BC22BAB1E3FF2389BD48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C8F3DA427C08849E7E9337B8 /* Pods_MMSimpleAddTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMSimpleAddTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D398A2928349D2C9677EEEF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D398A2928349D2C9677EEEF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D8D3F14EFE97EF15FB1E296A /* Pods-MMSimpleAddTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSimpleAddTool_Example.release.xcconfig"; path = "Target Support Files/Pods-MMSimpleAddTool_Example/Pods-MMSimpleAddTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				BA779C5E5B189F2BF2E71C22 /* Pods-MMSimpleAddTool_Tests.debug.xcconfig */,
 				C0864BB6F8147D3EE93408CF /* Pods-MMSimpleAddTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - MMSimpleAddTool (0.1.0)
+
+DEPENDENCIES:
+  - MMSimpleAddTool (from `../`)
+
+EXTERNAL SOURCES:
+  MMSimpleAddTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMSimpleAddTool: 60174311578224e19ba0d5a6808275e2d4da310a
+
+PODFILE CHECKSUM: 924b597c304b8afaf13b8c07ae18b48709f9a460
+
+COCOAPODS: 1.10.1
